@@ -1,0 +1,33 @@
+{
+  "name": "library-book",
+  "version": "1.0.0",
+  "description": "Discription\r 1.1.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server",
+    "build": "rollup -c --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vse-ok-ninok/library_book.git"
+  },
+  "author": "ninok-vse-ok",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vse-ok-ninok/library_book/issues"
+  },
+  "homepage": "https://github.com/vse-ok-ninok/library_book#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "eslint": "^9.36.0",
+    "globals": "^16.4.0",
+    "rollup": "^4.52.2",
+    "rollup-plugin-import-css": "^4.0.2"
+  },
+  "dependencies": {
+    "on-change": "^6.0.0"
+  }
+}
