@@ -1,8 +1,10 @@
+import { FavoritiesView } from "./views/favorities/favorieties";
 import { MainView } from "./views/main/main";
 
 class App {
     routes = [
-        {path: "", view: MainView }
+        {path: "", view: MainView },
+        {path: "#favorities", view: FavoritiesView },
     ];
     appState = {
         favorities: []
